@@ -7,7 +7,4 @@
 {{ config(materialized='table') }}
 
 
-select 
-    1 as id,
-    2 as product,
-    3 as company
+select 1 as id
